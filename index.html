@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Converter</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+    <script src="https://use.fontawesome.com/3eba172dd9.js"></script>
+
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="XMLConverter" ng-controller="ConverterController as converter">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="page-header col-md-9">
+            <h1 >
+              XML Converter |
+              <small class="text-muted">
+                <span class="fa fa-file-excel-o" aria-hidden="true"></span>
+                <span class="fa fa-arrow-circle-o-right" aria-hidden="true"></span>
+                <span class="fa fa-file-code-o" aria-hidden="true"></span>
+              </small>
+            </h1>
+          </div>
+
+          <div class="col-md-9 col-md-offset-3">
+            <p>Hello {{converter.name}}!</p>
+
+            <div class="form-group">
+
+              <form>
+                <div class="form-group">
+                  <div class="col-xs-offset-2">
+                    <label for="input">Select Files</label>
+                    <input type="file" id="input" class="form-control-file" ng-file-select="converter.addFiles($slctfl)" multiple>
+                  </div>
+                  <div class="col-xs-offset-2">
+                    <button type="button" class="btn btn-secondary" ng-click="converter.upload(converter.files)">Upload</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+        <p ng-repeat="file in converter.files">
+          {{file.name}}
+        </p>
+      </div>
+  </body>
+</html>
