@@ -13,21 +13,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</head>
-<body ng-controller="FileUploadController">
-    <h1>VIRIATO XML Converter</h1>
+    <script src="https://use.fontawesome.com/3eba172dd9.js"></script>
 
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <form>
-                <div class="form-group">
-                    <label for="myFileField">Select the files: </label>
-                    <input type="file" demo-file-model="myFile"  class="form-control" id ="myFileField" multiple accept="text/*,.csv"/>
+</head>
+<div class="container-fluid">
+    <div class="row">
+      <div class="page-header col-md-9">
+        <body ng-controller="FileUploadController">
+            <h1>VIRIATO XML Converter |
+              <span class="fa fa-file-excel-o" aria-hidden="true"></span>
+              <span class="fa fa-arrow-circle-right" aria-hidden="true"></span>
+              <span class="fa fa-file-code-o" aria-hidden="true"></span>
+            </h1>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="myFileField">Please select the csv files
+                              <span class="fa fa-files-o" aria-hidden="true"></span>
+                            </label>
+                            <input type="file" demo-file-model="myFile"  class="form-control" id ="myFileField" multiple accept="text/*,.csv"/>
+                        </div>
+                        <button ng-click="uploadFile()" class = "btn btn-primary">
+                          <span class="fa fa-upload" aria-hidden="true"></span>
+                          Upload csv Files
+                        </button>
+                    </form>
                 </div>
-                <button ng-click="uploadFile()" class = "btn btn-primary">Upload File</button>
-            </form>
+            </div>
+            <div>{{serverResponse}}</div>
+            <p class="font-weight-bold">
+              <span class="fa fa-copyright" aria-hidden="true"></span>
+              2018 DB Netz AG, neXt Lab
+            </p>
+          </div>
         </div>
-    </div>
-    <div>{{serverResponse}}</div>
+      </div>
 </body>
 </html>
