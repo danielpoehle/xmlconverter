@@ -29,7 +29,7 @@
          console.log(reader.result);
        };
 
-       reader.readAsText(file);
+       reader.readAsText(file, 'ISO-8859-1');
 
      } else {
        console.log("File not supported!");
