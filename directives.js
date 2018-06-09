@@ -21,13 +21,17 @@
 
                 //Bind change event on the element
                 element.bind('change', function () {
+                    var files = [];
+                    angular.forEach(element[0].files, function(file){
+                      files.push(file);
+                    });
                     //Call apply on scope, it checks for value changes and reflect them on UI
                     scope.$apply(function () {
                         //set the model value
-                        modelSetter(scope, element[0].files[0]);
+                        modelSetter(scope, files);
                     });
                 });
             }
         };
     });
-})(); 
+})();
