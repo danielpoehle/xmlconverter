@@ -77,13 +77,106 @@
 
      for (let i = 0, len = laufpunkte.length; i < len; i++) {
        let laufpunkt = laufpunkte[i].split(";");
+       console.log(laufpunkt);
+
+
        if(laufpunkt.length === 14){
-         console.log(laufpunkt);
+         let ankunftszeit = laufpunkt[3].trim(),
+             abfahrtszeit = laufpunkt[7].trim(),
+             mindesthaltezeit = laufpunkt[2].trim();
+         if(ankunftszeit === ""){
+           if(abfahrtszeit !== ""){
+             lp += getDurchfahrt(laufpunkt);
+           }
+         }else {
+           if(mindesthaltezeit !== ""){
+             lp += getHalt(laufpunkt);
+           }else{
+             lp += getBedarfshalt(laufpunkt);
+           }
+         }
        }
      }
 
      lp += "\t\t</Zugfahrtpunkte>\n";
      return lp;
+   }
+
+   function getDurchfahrt(laufpunkt){
+     let d = "\t\t\t<Durchfahrt>\n" + parseDS100(laufpunkt);
+     d += "\t\t\t\t<Durchfahrtzeit>" + modifyTimestamp(laufpunkt[7]) + "</Durchfahrtzeit>\n";
+     d += parseZuschlag(laufpunkt);
+     d += parseBauzuschlag(laufpunkt);
+     d += parseZusatzhalt(laufpunkt);
+     d += parseStrecke(laufpunkt);
+     d += "\t\t\t</Durchfahrt>\n";
+     return d;
+   }
+
+   function getHalt(laufpunkt){
+     let h = "\t\t\t<Verkehrshalt>\n" + parseDS100(laufpunkt);
+
+     h += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
+          "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" +
+          "\t\t\t\t<Mindesthaltedauer>" + laufpunkt[2].trim() +  "</Mindesthaltedauer>\n\t\t\t\t<Haltart>H</Haltart>\n";
+     h += parseZuschlag(laufpunkt);
+     h += parseBauzuschlag(laufpunkt);
+     h += parseStrecke(laufpunkt);
+     h += "\t\t\t</Verkehrshalt>\n";
+     return h;
+   }
+
+   function getBedarfshalt(laufpunkt){
+     let b = "\t\t\t<Verkehrshalt>\n" + parseDS100(laufpunkt);
+
+     b += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
+          "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" + "\t\t\t\t<Haltart>+TM</Haltart>\n";
+     b += parseZuschlag(laufpunkt);
+     b += parseBauzuschlag(laufpunkt);
+     b += parseStrecke(laufpunkt);
+     b += "\t\t\t</Verkehrshalt>\n";
+     return b;
+   }
+
+   function parseZuschlag(laufpunkt){
+     if(laufpunkt[11].includes("/")){
+       return("\t\t\t\t<Zuschlag>" + laufpunkt[11].split("/")[0].trim() + "</Zuschlag>\n");
+     }
+     return "";
+   }
+
+   function parseZusatzhalt(laufpunkt){
+     let zusatz = laufpunkt[4].replace('(','').replace(')', '').replace('Z','').trim();
+     if(zusatz !== ""){
+       return("\t\t\t\t<Zusatzhalt>" + zusatz + "</Zusatzhalt>\n");
+     }
+     return "";
+   }
+
+   function parseStrecke(laufpunkt){
+     if(laufpunkt[9].split("-")[0].trim() !== ""){
+       return("\t\t\t\t<Strecke>" + laufpunkt[9].split("-")[0].trim() + "</Strecke>\n" + "\t\t\t\t<Streckengleis>" + laufpunkt[9].split("-")[1].trim() + "</Streckengleis>\n");
+     }
+     return "";
+   }
+
+   function parseDS100(laufpunkt){
+     return("\t\t\t\t<DS100>" + laufpunkt[0].trim() + "</DS100>\n");
+   }
+
+   function parseBauzuschlag(laufpunkt){
+     if(laufpunkt[12].replace('[','').replace(']', '').trim() !== ""){
+       return("\t\t\t\t<Bauzuschlag>" + laufpunkt[12].replace('[','').replace(']', '').trim() + "</Bauzuschlag>\n");
+     }
+     return "";
+   }
+
+   function modifyTimestamp(time){
+     let timestamp = time.replace('(','').replace(')', '').trim();
+     if(timestamp.includes("/")){
+       timestamp = timestamp.split("/")[1];
+     }
+     return timestamp;
    }
 
    function getBemerkung(line){
