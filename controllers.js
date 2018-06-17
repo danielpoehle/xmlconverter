@@ -21,20 +21,14 @@
 
    function readAndConvertFile(file) {
      //console.log(file);
-     var textType = /text.*/;
-     if (file.type.match(textType)) {
-       var reader = new FileReader();
+     var reader = new FileReader();
 
-       reader.onload = function(e) {
-         convertText(reader.result);
+     reader.onload = function(e) {
+       convertText(reader.result);
+     };
 
-       };
+     reader.readAsText(file, 'ISO-8859-1');
 
-       reader.readAsText(file, 'ISO-8859-1');
-
-     } else {
-       console.log("File not supported!");
-     }
    }
 
    function convertText(text) {
