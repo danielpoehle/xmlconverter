@@ -77,7 +77,7 @@
 
      for (let i = 0, len = laufpunkte.length; i < len; i++) {
        let laufpunkt = laufpunkte[i].split(";");
-       console.log(laufpunkt);
+       //console.log(laufpunkt);
 
 
        if(laufpunkt.length === 14){
