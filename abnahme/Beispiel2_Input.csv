@@ -1,0 +1,154 @@
+
+
+DGS(70.1) 69558-300Hi   (LSW(Ein)-DGL)   Letzte Änd. 23.11.2017 16:24 LLR029
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+H6317 / Ä69558/2;DGS 70.1;151-1 (Reisezug/Güterzug (6,0MW)) (Zuglok, vorne);;0;610,0 m;629,5 m;1600,0 t;N;1718,0 t;100 km/h;;100 km/h;J;;P;68;;;;;HKP/C70 P/C400  SKL-GEFORDERT  LADEGUT  RM;N;;100 %;0,050;1,4;30.09.18 - 08.12.18 Sa (002 00);NGz;G;"AWHOD - DGL|Dradenau - LSW - Glauchau|H6317 -- HSL Logistik|KV P/C 70 P/C 400|Sk D4, LZB|alt: 69488;;;|NÄ zum 01.05.18 ausgelöst wg. Zs-Teilung||"
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Einbruch in LSW über 6899-0, Wunschabfahrt um 1/01:19.6 Uhr in LSW
+LSW;Salzwedel;;;;;;1/01:20.0;;6899-3;00:00.0;;;HU-12-LSWG
+LSW G;Salzwedel Gbf;;;;;;1/01:20.9;;6899-0;00:00.0;;;LSW-124-LS
+L908S;Sbk 908 (LPRZ);;;;;;1/01:25.3;;6899-0;00:00.0;;;LSW-LS
+LPRZ;Pretzier (Altm);;;;;;1/01:25.4;;6899-0;00:00.0;;;LSW-LS
+L907S;Sbk 907 (LPRZ);;;;;;;;6899-0;;;;LSW-LS
+LRAD;Rademin;;;;;;1/01:28.3;;6899-2;00:00.0;;;LSW-1-LS
+LFL;Fleetmark;;;;;;1/01:31.2;;6899-2;00:00.0;;;LSW-LS
+L906S;Sbk 906 (LBRP);;;;;;1/01:31.9;;6899-2;00:00.0;;;LSW-LS
+L905S;Sbk 31905 (LBRP);;;;;;;;6899-2;;;;LSW-LS
+LBRP;Brunau-Packeb;;;;;;1/01:36.5;;6899-2;00:00.0;0.3 / 7,9%;;LSW-3-LS
+L904S;Sbk 30904 (LHWU);;;;;;1/01:40.2;;6899-2;00:00.3;;;LSW-LS
+LMF;Meßdorf;;;;;;1/01:40.7;;6899-2;00:00.3;0.1 / 1,3%;;LSW-LS
+L903S;Sbk 30903 (LHWU);;;;;;;;6899-2;;;;LSW-LS
+L9033;Sbk 309033 LHWU;;;;;;;;6899-2;;;;LSW-LS
+L9031;Sbk 309031 LHWU;;;;;;;;6899-2;;;;LSW-LS
+LHWU;Hohenwulsch;00:20.0;1/01:45.5;;00:24.0;;1/02:09.5;;6899-0;00:00.4;0.1 / 3,0%;;LSW-2-LS
+LKD;Kläden (Kr Stl);;;;;;1/02:13.8;;6899-0;00:00.5;;;LSW-22-LS
+LKD H;Kläden Bstg;;;;;;1/02:14.4;;6899-0;00:00.5;;;LSW-222-LS
+LSFD;Steinfeld(b Stl);;;;;;1/02:17.6;;6899-0;00:00.5;;;LSW-901-LS
+L902S;Sbk 902 (LS);;;;;;1/02:17.7;;6899-0;00:00.5;;;LSW-LS
+L901S;Sbk 901 (LS);;;;;;;;6899-0;;;;LSW-LS
+LS  G;Stendal Gbf;;;;;;1/02:22.7;;6899-0;00:00.5;;;LSW-705/605-LS
+LS;Stendal;;;;;;1/02:23.7;;6402-2;00:00.5;;;LSG(605)-5/204-LM
+L2594;Sbk 2594 (LS);;;;;;1/02:29.3;;6402-2;00:00.5;0.1 / 4,5%;;LS-LGLB
+L2592;Sbk 2592 (LS);;;;;;;;6402-2;;;;LS-LGLB
+LDK;Demker;;;;;;1/02:30.9;;6402-2;00:00.6;0.3 / 5,0%;;LS-LGLB
+L7893;Sbk 7893 (LTH);;;;;;;;6402-2;;;;LS-LGLB
+L7891;Sbk 7891 (LTH);;;;;;;;6402-2;;;;LS-LGLB
+LTH;Tangerhütte;;;;;;1/02:37.2;;6402-2;00:00.9;0.2 / 5,0%;;LS-2-LGLB Gz
+LMW;Mahlwinkel;;;;;;1/02:40.5;;6402-2;00:01.1;0.2 / 5,0%;;LS-LGLB
+LANG;Angern-Rogätz;;;;;;1/02:44.7;;6402-2;00:01.3;0.2 / 5,0%;;LS-1-LGLB
+LZI Z;Zielitz Stw B2;;;;;;1/02:48.1;;6402-2;00:01.4;0.1 / 5,0%;;LS-2-LZI(2)
+LZI;Zielitz;;;;;;1/02:49.8;;6402-2;00:01.5;;;LZIZ(2)-2-LGLB
+LZIO;Zielitz Ort;;;;;;1/02:50.4;;6402-2;00:01.5;0.2 / 5,0%;;LS-LGLB
+LWLS;Wolmirstedt;;;;;;1/02:53.7;;6402-2;00:01.7;0.1 / 5,0%;;LS-1-LGLB
+LBAS;Barleber See;;;;;;1/02:56.3;;6402-2;00:01.8;;;LWLS-LGLB
+LGLB;Glindenberg;;;;;;1/02:57.4;;6406-2;00:01.8;0.1 / 2,8%;;LS-2-LMR
+LMR F;Mg-Rothensee Rmf;;1/03:01.0;;+00:05.0;;1/03:06.0;;6406-2;00:01.9;0.1 / 5,1%;;LGLB-A0-LMR
+LMR;Mg-Rothensee;;;;;;1/03:07.3;;6408-2;00:02.0;0.3 / 5,1%;;LMRF-B1/B3-LBRC
+LBRC;Brücke;;;(Z 00:03.0);;;1/03:15.5;;6110-2;00:02.2;;;LMR-LBZ
+L3222;Sbk 3222 (LBZ);;;;;;1/03:16.8;;6110-2;00:02.2;;;LM-LBZ
+L3220;Sbk 3220 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+LMHR;Mg-Herrenkrug;;;;;;1/03:17.0;;6110-2;00:02.3;;;LM-LBZ
+L3223;Sbk 3223 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+L3225;Sbk 3225 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+L3226;Sbk 3226 (LBZ);;;;;;1/03:17.9;;6110-2;00:02.3;0.1 / 2,8%;;LM-LBZ
+L3224;Sbk 3224 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+L3227;Sbk 3227 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+L3229;Sbk 3229 (LBZ);;;;;;;;6110-2;;;;LM-LBZ
+LBZ;Biederitz;;;;;;1/03:19.8;;6410-1;00:02.3;0.7 / 21,8%;;LM-11-LROD
+LKB;Königsborn;;;;;;1/03:23.6;;6410-1;00:03.0;0.7 / 29,3%;;LBZ-2-LROD
+LWH;Wahlitz;;;;;;1/03:26.5;;6410-1;00:03.7;0.3 / 9,0%;;LBZ-LROD
+LGO;Gommern;;;;;;1/03:30.1;;6410-1;00:04.0;0.4 / 8,8%;;LBZ-1-LROD
+LPRL;Prödel;;;;;;1/03:34.5;;6410-1;00:04.3;0.1 / 8,8%;;LBZ-LROD
+LLBS;Lübs (b Magdeb);;;;;;1/03:36.2;;6410-1;00:04.5;0.2 / 8,8%;;LBZ-LROD
+LGK N;Güterglück Gkn;;;;;;1/03:38.9;;6410-1;00:04.7;;;LBZ-1-LGK(11)
+LGK;Güterglück;;;;;;1/03:39.4;;6410-1;00:04.7;0.3 / 8,8%;;LBZ-11-LROD
+LTNZ;Trebnitz Strw;;;;;;;;6411-1;;;;LBZ-LROD
+L2013;Sbk 2013 (LGK);;;;;;1/03:43.2;;6411-1;00:05.0;0.2 / 8,8%;;LBZ-LROD
+L2014;Sbk 2014 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2016;Sbk 2016 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2015;Sbk 2015 (LGK);;;;;;1/03:45.3;;6411-1;00:05.2;;;LBZ-LROD
+LZE;Zerbst/Anhalt;;;;;;1/03:45.7;;6411-1;00:05.2;0.1 / 8,8%;;LBZ-LROD
+L2017;Sbk 2017 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2019;Sbk 2019 (LGK);;;;;;1/03:47.0;;6411-1;00:05.3;0.3 / 8,8%;;LBZ-LROD
+L2020;Sbk 2020 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2018;Sbk 2018 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2024;Sbk 2024 (LGK);;;;;;;;6411-1;;;;LBZ-LROD
+L2023;Sbk 2023 (LGK);;;;;;1/03:50.3;;6411-1;00:05.6;0.3 / 8,8%;;LBZ-LROD
+LROD;Rodleben;;;;;;1/03:53.7;;6411-1;00:05.9;0.1 / 8,8%;;LBZ-12-LR(22)
+LR;Roßlau (Elbe);;;;;;1/03:55.3;;6411-1;00:06.0;0.3 / 31,3%;;LROD(22)-2-LD
+L2627;Sbk 2627 (LD);;;;;;1/03:56.5;;6411-1;00:06.3;0.2 / 31,3%;;LR-LD
+L2625;Sbk 2625 (LD);;;;;;;;6411-1;;;;LR-LD
+L2626;Sbk 2626 (LD);;;;;;;;6411-1;;;;LR-LD
+L2628;Sbk 2628 (LD);;;;;;;;6411-1;;;;LR-LD
+L2631;Sbk 2631 (LD);;;;;;1/03:57.4;;6411-1;00:06.5;0.7 / 33,9%;;LR-LD
+L2629;Sbk 2629 (LD);;;;;;;;6411-1;;;;LR-LD
+L2630;Sbk 2630 (LD);;;;;;;;6411-1;;;;LR-LD
+L2632;Sbk 2632 (LD);;;;;;;;6411-1;;;;LR-LD
+LD  G;Dessau Gbf;;1/04:00.0;;+00:02.0;;1/04:02.0;;6411-1;00:07.2;;;LR-13-LD
+LD;Dessau Hbf;;;;;;1/04:03.8;;6411-1;00:07.2;;;LR-3-LBT
+LDS;Dessau Süd;;;;;;1/04:07.3;;6411-1;00:07.2;;;LD-LBT
+L2635;Sbk 2635 (LD);;;;;;1/04:07.5;;6411-1;00:07.2;;;LD-LBT
+L2636;Sbk 2636 (LD);;;;;;;;6411-1;;;;LD-LBT
+L2741;Sbk 2741 (LD);;;;;;1/04:11.2;;6411-1;00:07.1;;;LD-LBT
+L2742;Sbk 2742 (LD);;;;;;;;6411-1;;;;LD-LBT
+LMAR;Marke;;;;;;1/04:11.6;;6411-1;00:07.1;;;LD-LBT
+LRH;Raguhn;;;;;;1/04:13.8;;6411-1;00:07.1;;;LD-LBT
+LRHU;Raguhn Üst;;;;;;1/04:14.1;;6411-1;00:07.1;;;LD-LBT
+LJZ;Jeßnitz (Anh);;;;;;1/04:16.0;;6411-1;00:07.1;;;LD-LBT
+LWO;Wolfen (Kr Bitt);;;;;;1/04:18.0;;6411-1;00:07.1;0.1 / 5,3%;;LD-1-LBT
+L2853;Sbk 2853 (LWO);;;;;;1/04:19.4;;6411-1;00:07.2;;;LWO-LBT
+L2851;Sbk 2851 (LWO);;;;;;;;6411-1;;;;LWO-LBT
+LGPN;Greppin;;;;;;1/04:19.5;;6411-1;00:07.2;0.4 / 11,1%;;LD-LBT
+LBT;Bitterfeld;00:05.0;1/04:23.5;;00:10.0;;1/04:33.5;;6411-1;00:07.6;0.2 / 5,2%;;LD-45/5/3-LDL
+LBTS;Holzweißig;;;;;;1/04:38.0;;6411-1;00:07.8;0.3 / 21,1%;;LBT-1-LDL
+L7088;Sbk 7088 (LBT);;;;;;;;6411-1;;;;LBT-LDL
+LPRO;Petersroda;;;;;;1/04:39.8;;6411-1;00:08.2;;;LBT-LDL
+L7091;Sbk 7091 (LBT);;;;;;1/04:39.8;;6411-1;00:08.2;0.3 / 22,3%;;LBT-LDL
+LQPR;Petersroda ST/SN;;;;;;;;6411-1;;;;LBT-LDL
+L7692;Sbk 7692 (LDL);;;;;;;;6411-1;;;;LBT-LDL
+L7695;Sbk 7695 (LDL);;;;;;1/04:41.3;;6411-1;00:08.4;0.3 / 22,5%;;LBT-LDL
+L7699;Sbk 7699 (LDL);;;;;;1/04:43.0;;6411-1;00:08.8;0.4 / 22,4%;;LBT-LDL
+L7696;Sbk 7696 (LDL);;;;;;;;6411-1;;;;LBT-LDL
+LDL;Delitzsch unt Bf;;;;;;1/04:45.0;;6411-1;00:09.1;0.1 / 11,1%;;LBT-1/41-LAH(61)
+LAH;Delitzsch uBf Ah;;;;;;1/04:46.0;;6411-1;00:09.2;0.1 / 4,9%;;LDL-61-LL
+L7793;Sbk 7793 (LDL);;;;;;1/04:47.3;;6411-1;00:09.3;;;LAH-LRK
+L7790;Sbk 7790 (LDL);;;;;;;;6411-1;;;;LAH-LRK
+LZS;Zschortau;;;;;;1/04:48.2;;6411-1;00:09.3;;;LAH-LRK
+L7897;Sbk 7897 (LRK);;;;;;1/04:48.7;;6411-1;00:09.3;0.1 / 4,9%;;LAH-LRK
+L7894;Sbk 7894 (LRK);;;;;;;;6411-1;;;;LDL-LNW
+LRK;Rackwitz (b Lpz);;;;;;1/04:51.4;;6411-1;00:09.5;0.1 / 4,9%;;LDL-1-LNW
+L7873;Sbk 7873 (LRK);;;;;;1/04:52.7;;6411-1;00:09.5;0.1 / 4,9%;;LRK-LNW
+L7872;Sbk 7872 (LRK);;;;;;;;6411-1;;;;LRK-LNWN
+LNW N;Lpz Messe Nord;;;;;;1/04:54.0;;6370-0;00:09.6;;;LBT-11-LWI
+LWI;Wiederitzsch;;;;;;1/05:00.6;;6369-2;00:09.6;;;LNW-24-LLEL
+YLLWI;Wiederitzs Strw;;;;;;;;6381-2;;;;LWI-LLEL
+LLW V;Wahrener Viadukt;;;;;;1/05:04.8;;6380-2;00:09.6;;;LWI-202-LLEL
+LLEL;Leipzig-Leutzsch;;;;;;1/05:07.5;;6383-1;00:09.6;;;LLW-4-LLP
+LLIN;Lindenau;;;;;;1/05:09.5;;6383-1;00:09.6;;;LLEL-12-LLP(2)
+LLP;Leipzig-Plagwitz;;;;;;1/05:10.0;;6383-1;00:09.6;;;LLEL(12)-2-LLPG(22)
+LLP G;Lpz-Plagwitz Gbf;;1/05:11.5;;+00:07.5;;1/05:19.0;;6379-0;00:09.6;;;LLP(2)-22-LGW
+LMAW;Markkleebg West;;;;;;1/05:27.4;;6379-0;00:09.6;;;LLP-1-LGW
+LMAM;Markkleebg Mitte;;;;;;1/05:28.8;;6379-0;00:09.6;;;LLP-LGW
+LGW;M-Gaschwitz;;;;;;1/05:32.9;;6362-1;00:09.7;;;ab 10/2018 LLP-8-LBO
+LGD;Großdeuben;;;;;;1/05:35.7;;6362-1;00:09.7;;;LGW-LBO ab 10/2018
+LBO;Böhlen (b Lpz);;;;;;1/05:38.1;;6362-1;00:09.7;;;LGW(6362)-2-LNK
+LBWE;Böhlen Werke;;;;;;1/05:39.5;;6362-1;00:09.7;;;LBO-LNK
+LNK;Neukieritzsch;;1/05:43.5;;+00:13.7;;1/05:57.2;;6362-2;00:09.7;-0.2 / -4,6%;;Bau LBO-1-LA RG ab 05/2018
+LDTZ;Deutzen;;;;;;1/06:00.9;;6362-2;00:09.5;;;Bau LNK-LA G ab 05/2018
+LRB;Regis-Breitingen;;;;;;1/06:04.4;;6362-1;00:09.5;;;Bau LNK-1-LA GR ab 05/2018
+LQRB;Regis-Breit LGr;;;;;;;;6362-1;;;;LNK-LA
+LTRL;Treben-Lehma;;;;;;1/06:09.4;;6362-1;00:09.5;;;LNK-LA
+LA  W;Altenburg Pbf W1;;;;;;1/06:12.4;;6362-1;00:09.5;;;LNK-1-LA
+LA;Altenburg;;;;;;1/06:15.4;;6362-1;00:09.6;;;LNK-1-DLH
+LPD;Paditz;;;;;;1/06:20.2;;6362-1;00:09.6;0.4 / 12,9%;;LA-DLH
+DLH;Lehndorf;;;;;;1/06:23.9;;6362-1;00:10.0;0.7 / 11,9%;;LA-DGZ
+DGZ;Gößnitz;;;(Z 00:12.0);;;1/06:42.9;;6265-0;00:10.7;1.4 / 25,8%;;LA-7-DGLS H7s
+DQMA;Meerane SN/TH;;;;;;;;6265-0;;;;DGZ-DGL
+DMA;Meerane;;;;;;1/06:49.7;;6265-0;00:12.1;0.6 / 12,2%;;DGZ-1-DGL
+DGLS;Glauchau-Schönb;;;;;;1/06:55.4;;6258-2;00:12.8;;;DGZ-DGL
+D6956;Sbk 6956 (DGL);;;;;;1/06:56.0;;6258-2;00:12.8;0.5 / 13,8%;;DGLS-DGL
+D6951;Sbk 6951 (DGL);;;;;;;;6258-2;;;;DGLS-DGL
+DGLG;Glauchau Gewerbe;;;;;;;;6258-2;;;;DGLS-DGL
+DGL;Glauchau (Sachs);00:30.0;1/07:00.0;;00:30.0;;(1/07:30.0);;6258-2;00:13.3;;;DGLS-15-DEG

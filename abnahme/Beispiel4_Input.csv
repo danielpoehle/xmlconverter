@@ -1,0 +1,119 @@
+
+
+Trasse Z1473 / 50270/3   
+
+KT(50.1) 50270hü   (HEBG(Ein)-HLERW)   Letzte Änd. 30.11.2017 09:03 hrk19
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+Z1473 / 50270/3;KT 50.1;80 6152-3 (ES 64 F (6,4MW)) (Zuglok, vorne);;0;700,0 m;719,0 m;1475,0 t;J;1562,0 t;120 km/h;;120 km/h;J;;P;78;;;;;HK  SKL-GEFORDERT;N;;100 %;0,050;1,4;10.12.17 - 04.02.18 Mi (016 00);FGz;G;NROB - AWHOO|Z1473 DB Cargo|P/C 70 P/C 400|SK D4|
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Einbruch in HEBG über 3600-1, Wunschabfahrt um 19:59.0 Uhr in HEBG
+HEBG;Eichenberg;;;;;;19:59.0;;3600-1;00:00.0;;;FB-4-HG H1
+HEBGN;Eichenberg Nordk;;;;;;19:59.8;;3600-1;00:00.0;0.2 / 14,5%;[;HEBG-HG
+H03EF;Sbk3;;;;;;20:01.8;;3600-1;00:00.3;0.2 / 14,5%;;HEBG-HG
+HFRI;Friedland (Han);;;;;;20:03.7;;3600-1;00:00.6;0.4 / 14,5%;0.1;HEBG-2-HOBJ
+HOBJ;Obernjesa;;;;;;20:06.9;;3600-1;00:01.1;0.4 / 14,5%;0.1;HEBG-2-HG
+HRDF;Rosdorf;;;;;;20:10.5;;3600-1;00:01.6;0.2 / 14,6%;;HEBG-2-HG
+HGRN;Grone;;;;;;20:11.9;;3600-1;00:01.8;0.1 / 3,9%;];HEBG-HG(3600)
+HG;Göttingen;;;;;;20:13.6;;1732-7;00:01.9;;;HEBG-4-HG  G(1732-7)
+HG  G;Göttingen Gbf;;20:16.6;;+00:15.3;;20:31.9;;1732-4;00:01.9;;;HG(1732-7)-103-HG  N(1732-4)
+HG  N;Göttingen Gbf N;;;;;;20:33.9;;1732-2;00:01.9;;;HG  G(1732-4)-311-HNTH
+HNTH;Nörten-Hardenbg;;;;;;20:38.8;;1732-2;00:01.9;0.6 / 9,9%;[0.2;HG(1732)-1-HN
+HN  G;Northeim/Han Gbf;;;;;;20:45.5;;1732-2;00:02.7;0.1 / 9,9%;;HNTH-101-HK
+HN;Northeim (Han);;;;;;20:46.1;;1732-2;00:02.8;0.2 / 9,9%;0.1;HNTH-1-HK
+HEDS;Edesheim (L) Süd;;;;;;20:47.8;;1732-2;00:03.0;0.1 / 9,9%;;HN-HK
+HEDM;Edesheim (L);;;;;;20:48.8;;1732-2;00:03.1;0.7 / 13,4%;0.2;HN-HK
+HEB;Einbeck-Salzderh;;;;;;20:54.6;;1732-2;00:03.9;0.6 / 12,8%;0.2;HN-202-HK
+HK;Kreiensen;;;;;;21:00.4;;1732-2;00:04.8;1.1 / 18,0%;0.3;HEB-302-HELZ
+HFRE;Freden (Leine);;;;;;21:08.1;;1732-2;00:06.2;1.0 / 18,1%;0.2;HK-302-HELZ
+HALF;Alfeld (Leine);;;;;;21:14.9;;1732-2;00:07.4;0.5 / 18,0%;0.1;HK-401-HELZ
+HGOD;Godenau;;;;;;21:17.9;;1732-2;00:07.9;0.1 / 3,4%;0.1;HK-202-HELZ
+HBAN;Banteln;;;;;;21:22.5;;1732-2;00:08.2;0.1 / 3,2%;0.1;HK-301-HELZ
+HELZ;Elze (Han);;;;;;21:26.7;;1732-2;00:08.5;;0.1;HK-3-HNOS
+HNOS;Nordstemmen;;;;;;21:30.7;;1732-2;00:08.6;;0.1;HELZ-1-HBNT
+HBNT;Barnten;;;;;;21:33.1;;1732-2;00:08.7;;0.1;HNOS-2-HSRD
+HSRD;Sarstedt;;;;;;21:35.9;;1732-2;00:08.8;;0.1;HBNT-1/11-HRNT
+HRTN;Rethen (Leine);;;;;;21:40.2;;1732-2;00:09.0;;];HSRD-917/914-HHML
+HHML;Han Mess/Laatzen;;;;;(Z 00:02.0);21:42.9;;1732-9;00:09.0;;;HRTN-717-HWU(1732-9)
+HWU;Hannover-Wülfel;;21:48.0;;+00:02.0;;21:50.0;;1754-0;00:09.0;0.7 / 19,9%;;HHML-717/418-HLER
+HWAM;Waldheim;;;;;;21:54.3;;1750-1;00:09.7;2.0 / 41,0%;;HWU-HMI
+HMI;Misburg;;;;;;22:01.1;;1750-1;00:11.7;0.5 / 21,9%;;HWAM-021/002-HLER
+HLERA;Lehrte-Ahlten;;;;;;22:03.9;;1750-1;00:12.2;0.4 / 14,8%;;HMI-431-(1750-1) HLERW
+HLERW;Lehrte West;00:03.0;22:07.0;;00:08.5;;(22:15.5);;1750-1;00:12.6;;;HLERA-431/306-HLERN
+
+
+KT(50.1) 50270we   (HLERW-AWHOO)   Letzte Änd. 30.11.2017 09:03 hrk19
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+Z1473 / 50270/3;KT 50.1;80 6152-3 (ES 64 F (6,4MW)) (Zuglok, vorne);;0;700,0 m;719,0 m;1475,0 t;J;1562,0 t;120 km/h;120 km/h;120 km/h;J;;P;78;;;;;HKP/C70 P/C400  SKL-GEFORDERT;N;;100 %;0,050;1,4;10.12.17 - 04.02.18 Mi (016 00);FGz;G;NROB - AWHOO|KV-Profil P/C 70 P/C 400|SKL D 4|Z1453 DB Cargo
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 22:18.0 Uhr in HLERW
+HLERW;Lehrte West;00:03.0;(22:07.0);;00:08.5;;22:15.5;;1750-1;00:00.0;;;HLERA-431/306-HLERN
+HLERN;Lehrte Nord;;;;;;22:18.2;;1720-1;00:00.0;;;HLERW-223-HC
+HALI;Aligse;;;;;;22:19.8;;1720-1;00:00.0;;;HLER-561-HC
+HBGD;Burgdorf;;;;;;22:23.2;;1720-1;00:00.0;;;HLER-641-HC
+HOTZ;Otze;;;;;;22:25.9;;1720-1;00:00.0;;;HBGD-HELH
+HELH;Ehlershausen;;;;;;22:28.7;;1720-1;00:00.0;;;HLER-901/921-HC
+H113A;Sbk76113;;;;;;22:30.6;;1720-1;00:00.0;;;HLER-HC
+H117C;Sbk76117;;;;;;22:33.3;;1720-1;00:00.0;;;HLER-HC
+HC  G;Celle Gbf;;;;;;22:34.8;;1720-1;00:00.0;0.1 / 17,2%;;HLER-24-HC(1720-1)
+HC;Celle;;;;;;22:35.5;;1720-1;00:00.1;0.1 / 17,2%;;HC  G(1720-1)-24/5-HU
+H121G;Sbk76121;;;;;;22:36.4;;1720-1;00:00.2;0.4 / 17,2%;;HC-HGAR
+H103G;Sbk75103;;;;;;22:38.9;;1720-1;00:00.6;0.2 / 17,2%;;HC-HGAR
+HGAR;Garßen;;;;;;22:40.1;;1720-1;00:00.8;0.2 / 17,2%;;HC-202-HESD
+H105;Sbk75105;;;;;;22:41.3;;1720-1;00:00.9;0.6 / 17,2%;;HGAR-HESD
+H105E;Sbk74105;;;;;;22:45.3;;1720-1;00:01.5;0.2 / 17,2%;;HGAR-HESD
+HESD;Eschede;;;;;;22:46.9;;1720-1;00:01.8;0.1 / 17,2%;;HGAR-201/301-HUNL
+H107U;Sbk74107;;;;;;22:47.6;;1720-1;00:01.9;0.7 / 17,2%;;HESD-HUNL
+H105U;Sbk73105;;;;;;22:52.7;;1720-1;00:02.6;0.2 / 17,2%;;HESD-HUNL
+HUNL;Unterlüß;;;;;;22:54.0;;1720-1;00:02.8;0.3 / 29,5%;;HESD-308-HSUD
+H107S;Sbk73107;;;;;;22:55.3;;1720-1;00:03.1;1.2 / 29,5%;;HUNL-HSUD
+H105S;Sbk72105;;;;;;23:00.6;;1720-1;00:04.3;0.4 / 29,5%;;HUNL-HSUD
+HSUD;Suderburg;;;;;;23:02.3;;1720-1;00:04.7;0.2 / 29,5%;;HUNL-301-HKSU
+H107K;Sbk72107;;;;;;23:03.3;;1720-1;00:04.9;0.2 / 29,5%;;HSUD-HKSU
+H109K;Sbk72109;;;;;;23:04.3;;1720-1;00:05.2;0.4 / 29,5%;;HSUD-HKSU
+HKSU;Klein Süstedt;;;;;;23:05.9;;1720-1;00:05.5;0.2 / 28,2%;;HSUD-202-HU G
+H111;Sbk71111;;;;;;23:06.9;;1720-1;00:05.7;0.2 / 28,2%;;HKSU-HU G
+H113;Sbk71113;;;;;;23:07.6;;1720-1;00:05.9;0.4 / 28,2%;;HKSU-HU G
+HU  G;Uelzen Gbf;;;;;;23:09.4;;1720-1;00:06.3;0.4 / 61,8%;;HC-2-HU(1720-1)
+HU;Uelzen;;;;;(Z 00:00.0);23:10.5;;1720-1;00:06.7;0.9 / 26,1%;;HU G(1720-1)-102-ALBG
+H61UE;Sbk61;;;;;;23:14.6;;1720-1;00:07.6;0.9 / 26,1%;;HU-ALBG
+H67UB;Sbk67;;;;;;23:18.8;;1720-1;00:08.4;0.7 / 26,1%;;HU-ALBG
+ABVS;Bad Bevensen;;;;;;23:22.4;;1720-1;00:09.2;;;HU-1-ALBG
+A81BB;Sbk81;;;;;;23:23.6;;1720-1;00:09.2;;;HU-ALBG
+A85BB;Sbk85;;;;;;23:25.8;;1720-1;00:09.2;;;HU-ALBG
+ABIL;Bienenbüttel;;;;;;23:27.3;;1720-1;00:09.2;;;HU-1-ALBG
+A91DE;Sbk91;;;;;;23:28.7;;1720-1;00:09.2;;;HU-ALBG
+ADEV;Deutsch Evern;;23:32.6;;+00:06.5;;23:39.1;;1720-1;00:09.2;;;HU-3-ALBG
+A101L;Sbk101;;;;;;23:41.2;;1720-1;00:09.2;;;HU-ALBG
+ALBGG;Lüneburg Gbf;;;;;;23:42.8;;1720-1;00:09.2;;;HU-102-ALBG(1720-1)
+ALBG;Lüneburg;;;;;;23:43.4;;1720-1;00:09.2;0.4 / 31,6%;;ALBGG(1720-1)-202-ASTE (1720) Gz
+AB111;Sbk65111;;;;;;23:45.1;;1720-1;00:09.6;0.3 / 30,9%;;ALBG-ASTE
+A115B;Sbk65115;;;;;;23:46.5;;1720-1;00:09.9;0.2 / 28,0%;;ALBG-ASTE
+ABAD;Bardowick;;;;;;23:47.6;;1720-1;00:10.1;0.3 / 28,0%;;ALBG-31/41-ASTE
+AR121;Sbk65121;;;;;;23:48.8;;1720-1;00:10.4;0.3 / 28,0%;;ALBG-ASTE
+A125R;Sbk65125;;;;;;23:50.4;;1720-1;00:10.7;0.3 / 28,0%;;ALBG-ASTE
+ARH;Radbruch;;;;;;23:51.8;;1720-1;00:11.0;;;ALBG(1720)-127-ASTE(1720)
+A129W;Sbk63129;;;;;;23:51.9;;1720-1;00:11.1;0.4 / 28,0%;;ALBG-ASTE
+A133;Sbk63133;;;;;;23:53.6;;1720-1;00:11.4;0.2 / 28,0%;;ALBG-ASTE
+A135;Sbk63135;;;;;;23:54.4;;1720-1;00:11.6;0.4 / 28,0%;;ALBG-ASTE
+AWI;Winsen (Luhe);;;;;;23:56.3;;1720-1;00:12.0;;;ALBG(1720)-41-ASTE(1720)
+A141;Sbk63141;;;;;;23:56.9;;1720-1;00:12.0;;;ALBG-ASTE
+A246;Sbk62246;;;;;;23:58.4;;1720-1;00:12.0;;;ALBG-ASTE
+AASA;Ashausen Abzw;;;;;;23:58.6;;1281-0;00:12.0;;;AWI(1720-1)-447-ASTE (1281)
+AASN;Ashausen;;;;;;23:58.8;;1281-0;00:12.0;;;AWI(1720)-447-ASTE(1281)
+ASTE;Stelle;;;;;;1/00:00.9;;1281-0;00:12.0;;;AASN(1281)-5-AM S
+AM  S;Maschen Rbf Msof;;;;;;1/00:02.8;;1280-1;00:12.0;;;ASTE(1281)-2002-AM  W(1280-1)
+AM  O;Maschen Rbf Mnof;;;;;;1/00:05.1;;1280-1;00:12.0;;;AM  N(1280-1)-2010/1038-AMD(1280-1) H2
+AMD;Meckelfeld;;;;;;1/00:05.8;;1255-1;00:12.0;;;AM  O(1280-1)-AHAR(1255)
+A281M;Sbk281;;;;;;1/00:06.2;;1255-1;00:12.0;;;AMD-AQM
+AHARH;Hmb-Harb Bbf Süd;;;;;;1/00:07.2;;1255-1;00:12.0;;;AMD-AHAR
+AHAR;Hmb-Harburg;;;;;;1/00:08.6;;1720-1;00:12.0;;;AMD(1255-1)-077-ACV(1720)
+AHB;Hmb Unterelbe;;;;;;1/00:10.9;;1720-1;00:12.0;;;AHAR-32-AHBR
+AHBR;Hmb-Hausbruch;;;;;;1/00:15.4;;1293-1;00:12.0;;;AHAR-AWHO
+AHBG;Hmb-Hausbr DB-Gr;;;;;;1/00:15.4;;1293-1;00:12.0;;;AHAR-AHBRM
+AHBRM;Hausbruch Mitte;;;;;;1/00:16.5;;1253-1;00:12.0;;;AHAR-802/823-AWHOS
+AWHOS;Alte Süderelbe;;;;;;1/00:20.8;;1294-1;00:12.0;;;AHBRM-505-AWHOO
+AWHOO;Altenwerder Ost;00:03.0;1/00:25.4;;00:03.0;;(1/00:28.4);;441 - 448;00:12.0;;;AWHOS-441/448AWHOO

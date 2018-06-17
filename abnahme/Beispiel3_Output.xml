@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Zugtrassen>
+    <Zugtrasse>
+<Zugnummer></Zugnummer>
+ <LetzteAenderung>30.08.2017 10:41:41</LetzteAenderung>
+<Zugcharakteristik><Zuggattung>ICE-A 97.1</Zuggattung><Tfz>*80 6412-50 (7812, ICE4,7-T, 4,95 MW, Imax<600A) (Zuglok, vorne)</Tfz><Wagenanzahl>0</Wagenanzahl><Wagenzuglänge>0,0 m</Wagenzuglänge><Wagenzugmasse>202,0 m</Wagenzugmasse><Gesamtmasse>475,0 t</Gesamtmasse><Konsruktionsgeschwindigkeit></Konstruktionsgeschwindigkeit><Hoechstgeschwindigkeit></Hoechstgeschwindigkeit><LZB>N</LZB><ETCS>Mit ETCS Version 2 ausgerüstet</ETCS><Bremsstellung>R+Mg</Bremsstellung><Bremshundterstel>194</Bremshundertstel><Neigetechnik></Neigetechnik><Verkehrszeitraum>10.12.17 - 09.12.18 täglich (127 00)</Verkehrszeitraum><Zugklasse>FRz</Zugklasse><Kommentar></Kommentar></Zugcharakteristik>
+<Bemerkung>ICE-A(97.1) 898MS   (LL-UTHE)   Letzte Änd. 07.06.2018 17:01 vmsac</Bemerkung>
+
+<Zugfahrtpunkte>
+<Verkehrshalt><DS100>LL</DS100><Ankunftszeit>23:51,4</Ankunftszeit><Abfahrtszeit>23:52,4</Abfahrtszeit><Mindesthaltedauer>01,0</Mindesthaltedauer><Haltart>H</Haltart><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Verkehrshalt>
+<Durchfahrt><DS100>LLBB</DS100><Durchfahrtzeit>23:54,9</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LLMO</DS100><Durchfahrtzeit>23:57,1</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LNW H</DS100><Durchfahrtzeit>23:58,0</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>L8388</DS100><Durchfahrtzeit>23:58,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>L8384</DS100><Durchfahrtzeit>00:00,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>LFLU</DS100><Durchfahrtzeit>00:02,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>LGOSO</DS100><Durchfahrtzeit>00:03,8</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LGOS</DS100><Durchfahrtzeit>00:03,9</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>LPLN</DS100><Durchfahrtzeit>00:07,0</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LDST</DS100><Durchfahrtzeit>00:08,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LJD</DS100><Durchfahrtzeit>00:12,5</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>LSBT</DS100><Durchfahrtzeit>00:16,6</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>UGBB</DS100><Durchfahrtzeit>00:21,5</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+
+<Durchfahrt><DS100>UE  L</DS100><Durchfahrtzeit>00:27,3</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UE  F</DS100><Durchfahrtzeit>00:27,7</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UE  O</DS100><Durchfahrtzeit>00:28,0</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UE  G</DS100><Durchfahrtzeit>00:28,5</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UE  P</DS100><Durchfahrtzeit>00:29,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UEL</DS100><Durchfahrtzeit>00:36,1</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UIW</DS100><Durchfahrtzeit>00:42,2</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UMA</DS100><Durchfahrtzeit>00:46,9</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>
+<Durchfahrt><DS100>UTHE</DS100><Durchfahrtzeit>00:50,6</Durchfahrtzeit><Strecke>5919</Strecke><Streckengleis>2</Streckengleis></Durchfahrt>

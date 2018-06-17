@@ -61,8 +61,8 @@
 
      // generate the different parts of the file
 
-     let firstPart = '<?xml version="1.0" encoding="iso-8859-1"?>\n<Zugtrassen>\n\t<Zugtrasse>\n\t\t<Zugnummer></Zugnummer>\n';
-     let lastPart = '\t</Zugtrasse>\n</Zugtrassen>';
+     let firstPart = '<?xml version="1.0" encoding="UTF-8"?>\n<Zugtrassen>\n\t<Zugtrasse>\n\t\t<Zugnummer></Zugnummer>\n';
+     let lastPart = '\t</Zugtrasse>\n</Zugtrassen>\n';
      let aenderung = getAenderung(lines[2]);
      let zugch = getZCH(lines[5]);
      let bemerkung = getBemerkung(lines[2]);
@@ -219,7 +219,7 @@
 
    function download(filename, text) {
     var element = document.createElement('a');
-    element.setAttribute('href', 'data:text/plain;charset=iso-8859-1,' + encodeURIComponent(text));
+    element.setAttribute('href', 'data:text/plain;charset=iso-8859-1,' + text);
     element.setAttribute('download', filename);
 
     element.style.display = 'none';
