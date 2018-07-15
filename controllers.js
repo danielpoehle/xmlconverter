@@ -114,7 +114,7 @@
 
      h += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
           "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" +
-          "\t\t\t\t<Mindesthaltedauer>" + laufpunkt[2].trim() +  "</Mindesthaltedauer>\n\t\t\t\t<Haltart>H</Haltart>\n";
+          "\t\t\t\t<Mindesthaltedauer>" + modifyMindesthaltezeit(laufpunkt[2].trim()) +  "</Mindesthaltedauer>\n\t\t\t\t<Haltart>H</Haltart>\n";
      h += parseZuschlag(laufpunkt);
      h += parseBauzuschlag(laufpunkt);
      h += parseStrecke(laufpunkt);
@@ -165,6 +165,17 @@
        return("\t\t\t\t<Bauzuschlag>" + laufpunkt[12].replace('[','').replace(']', '').trim() + "</Bauzuschlag>\n");
      }
      return "";
+   }
+
+   function modifyMindesthaltezeit(time){
+     let seconds = time.split(".")[1];
+     let hours = time.split(".")[0].split(":")[0];
+     let minutes = time.split(".")[0].split(":")[1];
+     let timestamp = (60*hours + 1*minutes) + "," + seconds;
+
+     console.log(timestamp);
+
+     return timestamp;
    }
 
    function modifyTimestamp(time){
