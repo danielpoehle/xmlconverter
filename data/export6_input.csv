@@ -1,0 +1,65 @@
+
+
+Trasse B1260 / 5352/1   
+
+RE-G(40.1) 5352-430TS   (XPSG-WB)   Letzte Änd. 23.04.2018 15:50 BRk83
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+B1260 / 5352/1;RE-G 40.1;"80 0623-1 (LINT 41; 2x390kW; 115SP) (Zuglok, vorne)";;0;0,0 m;42,0 m;0,0 t;N;85,6 t;140 km/h;140 km/h;140 km/h;N;;R+Mg;172;;;;;;N;;100 %;;;01.09.18 - 08.12.18 täglich (127 00);NRz;R;RE 4 MV|
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 07:14.5 Uhr in WXG
+XPSG;Szczecin Glowny;00:05.0;(06:54.7);;00:05.5 (PZB);;07:00.2;;7319-0;00:00.0;0.5 / 9,1%;;5-XPSU
+XPSU;Szczecin Gu.;00:00.5;07:05.8;;00:00.5 (PZB);;07:06.3;;7319-1;00:00.5;;;XPSG-1-101-WGR RZ
+XPSB;Stobno;;;;;;07:10.8;;7319-0;00:00.5;;;XPSU-1-WGR
+WXG;Grambow Gr;;;;;;07:14.5;;6327-0;00:00.5;;;XPSU-WGR
+WGR;Grambow;00:01.5;07:16.1;;00:01.5;;07:17.6;;6327-0;00:00.5;;;WXG-2-WP
+WLK;Löcknitz;00:00.5;07:25.2;;00:00.5 (PZB);;07:25.7;;6327-0;00:00.5;;;WGR-1-WP
+WZIN;Zerrenthin;00:00.1;07:32.6;;x00:00.1;;07:32.7;;6327-0;00:00.5;;;WGR-WP
+WPOU;Pasew O Umsp;;;;;;07:36.0;;6327-0;00:00.5;;;WGR-WP
+WPO;Pasewalk Ost;00:00.1;07:37.2;;x00:00.1;;07:37.3;;6327-0;00:00.5;;;WGR-WP
+WP;Pasewalk;00:01.0;07:39.7;;00:12.7 (PZB);;07:52.4;;6327-0;00:00.5;;;WPO-3/7-WBLK
+WBLK;Blumenhagen;00:00.5;07:59.9;;00:00.5;;08:00.4;;6327-0;00:00.5;;;WP-1-WSB
+WSB;Strasburg;00:00.5;08:07.0;;00:00.5;;08:07.5;;1122-0;00:00.5;;;WBLK-1-WOE
+WOE;Oertzenhof;00:00.5;08:15.7;;00:00.5;;08:16.2;;1122-0;00:00.5;;;WSB-1-WNA
+WNA;Neetzka;00:00.1;08:20.2;;x00:00.1;;08:20.3;;1122-0;00:00.5;;;WOE-1-WSP
+WSP;Sponholz;00:00.5;08:28.2;(Z 00:00.4);00:01.0 (PZB);;08:29.2;;1122-0;00:00.5;;;WNA-2-WN
+WN  G;Neubrandenbg Gbf;;;;;;08:33.9;;1122-0;00:00.5;;;WSP-13-WN
+WN;Neubrandenburg;00:02.0;08:35.3;;00:08.9 (PZB);;08:44.2;;1122-0;00:00.5;0.2 / 3,2%;;WN  G-3-WBLH
+WBLH;Blankenhof;;;;;;08:51.2;;1122-0;00:00.7;;;WN-1-WKLE
+WMOE;Mölln (Meckl);00:00.1;08:54.1;;x00:00.1;;08:54.2;;1122-0;00:00.7;;;WBLH-WKLE
+WKLE;Kleeth;;08:58.4;;+00:03.6g;;09:02.0;;1122-0;00:00.7;;;WBLH-2-WGRO
+WGRO;Grischow (Meckl);;;;;;09:07.8;;1122-0;00:00.7;;;WKLE-1-WRST
+WRST;Stavenhagen;00:00.5;09:12.0;;00:00.5 (PZB);;09:12.5;;1122-0;00:00.7;;;WGRO-1-WMA
+WMA;Malchin;00:00.5;09:20.3;;00:00.5;;09:20.8;;1122-0;00:00.7;;;WRST-1-WTE
+WTE;Teterow;00:00.5;09:30.4;;00:00.5;;09:30.9;;1122-0;00:00.7;;;WMA-2-WLD
+WNWO;Neu Wokern;00:00.5;09:35.2;;00:00.5;;09:35.7;;1122-0;00:00.7;;;WTE-WLD
+WLD;Lalendorf;00:00.5;09:41.2;;00:00.5;;09:41.7;;1122-0;00:00.7;;;WTE-1-WPI
+WPI;Priemerbg-NUP Gü;00:00.5;09:49.1;;00:01.5;;09:50.6;;1122-0;00:00.7;;;WLD-1-WG S1
+WG;Güstrow;00:02.0;09:53.7;;00:14.5;;10:08.2;;1122-0;00:00.7;;;WPI-S1-5/4-WG  G H50
+WG  G;Güstrow Gbf;;;;;;10:09.5;;1122-0;00:00.7;;[0.2;WG-4-WB
+WB;Bützow;00:01.0;10:18.0;;00:01.2;;(10:19.2);;1122-2;00:00.9;;];WG-3-WWRN H70
+
+
+RE-G(40.1) 5352-431TS   (WB-WHB(Aus))   Letzte Änd. 23.04.2018 15:50 BRk83
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+B1260 / 5352/1;RE-G 40.1;"80 0623-1 (LINT 41; 2x390kW; 115SP) (Zuglok, vorne)";;0;0,0 m;42,0 m;0,0 t;N;85,6 t;140 km/h;140 km/h;140 km/h;N;;R+Mg;172;;;;;SKL-GEFORDERT;N;;100 %;;;01.09.18 - 08.12.18 täglich (127 00);NRz;R;RE 4 MV|
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 10:19.2 Uhr in WB
+WB;Bützow;00:01.0;(10:18.0);;00:01.2;;10:19.2;;1122-2;00:00.0;;[0.4;WG-3-WWRN H70
+WWRN;Warnow (Meckl);;;;;;10:25.3;;1122-2;00:00.4;0.1 / 3,4%;];WB-2-WBL
+WFRW;Friedrichswalde;;;;;;10:28.4;;1122-2;00:00.5;0.1 / 3,4%;;WWRN-WBL
+WBL;Blankenberg (M);00:00.5;10:31.8;;00:00.7;;10:32.5;;1122-2;00:00.6;0.1 / 2,0%;[0.6;WWRN-2-WVE
+WVE;Ventschow;00:00.5;10:38.6;;00:00.7;;10:39.3;;1122-2;00:01.3;0.1 / 1,4%;];WB-WK
+WK;Bad Kleinen;00:01.0;10:46.5;;00:13.8 (PZB);;11:00.3;;1122-0;00:01.4;;;WVE-1-WBO
+WBO;Bobitz;00:00.5;11:06.1;;00:00.5;;11:06.6;;1122-0;00:01.4;;[0.2;WK-1-WGV
+WPSW;Plüschow;00:00.1;11:11.2;;x00:00.1;;11:11.3;;1122-0;00:01.6;;0.2;WBO-WGV
+WGV;Grevesmühlen;00:00.5;11:16.3;;00:00.5;;11:16.8;;1122-0;00:01.8;;] [0.5;WK-1-WGBN
+WGBN;Grieben (Meckl);00:00.1;11:22.3;;x00:00.1;;11:22.4;;1122-0;00:02.3;;] [0.3;WGV-1-WMEF
+WMEF;Menzendorf;;11:26.9;;+00:04.0g;;11:30.9;;1122-0;00:02.6;0.3 / 7,1%;];WGBN-1-WSBG
+WSBG;Schönberg (M);00:00.5;11:35.4;;00:00.5;;11:35.9;;1122-0;00:02.9;0.5 / 9,4%;[0.3;WK-2-WHB
+WLF;Lüdersdorf (M);00:00.5;11:42.0;;00:00.5;;11:42.5;;1122-0;00:03.7;0.3 / 10,1%;] [0.2;WSBG-WHB
+WHB;Herrnburg;00:00.5;11:46.0;;00:00.5;;11:46.5;;1122-0;00:04.2;;];WSBG-21-AL
+Ausbruch in WHB über 1122-0

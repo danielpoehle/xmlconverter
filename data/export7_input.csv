@@ -1,0 +1,40 @@
+
+
+Trasse Z1351 / Ä143/4   
+
+IC(12.1) 143-310mw   (LRIK(Ein)-BHF)   Letzte Änd. 21.12.2017 13:21 BRK88
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+Z1351 / Ä143/4;IC 12.1;"101-5 (Reisezg/Güterzug  (Pu=6,0MW; 60kN pro FM)) (Zuglok, vorne)";;9;240,0 m;259,1 m;470,0 t;N;556,9 t;200 km/h;;200 km/h;J;;R+Mg;196;;;;;SKL-GEFORDERT;N;;100 %;;;15.10.18 - 08.12.18 täglich (127 00);FRz;R;XNAC - BHF|L 77
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Einbruch in LRIK über 6185-2, Wunschabfahrt um 12:53.0 Uhr in LRIK
+LRIK;Ribbeck;;;;;;14:51.0;;6185-2;00:00.0;0.2 / 3,4%;;LBOW(R)-BWUSN(T)
+BWUSN;Wustermark Awn;;;;;;14:56.7;;6185-2;00:00.2;;;LRIK-T-BSPD
+BWUS;Wustermark;;;;;;14:57.0;;6185-2;00:00.2;;[0.5;LRIK-T-BSPD
+BNDM;Bln Nennh Damm;;;;;;15:02.2;;6185-2;00:00.7;0.2 / 19,8%;];BWUS-T-BSPDW
+BSPDW;Bln-Spandau West;;;;;;15:03.6;;6100-2;00:00.9;0.2 / 19,8%;;BNDM-T-715-BSPD
+BSPD;Bln-Spandau;00:02.0;15:04.7;;00:02.0 (PZB);;15:06.7;;6100-2;00:01.1;;;BSPDW-7152-BSPDM
+BSPDO;Bln-Spandau Ost;;;;;;15:08.8;;6109-2;00:01.1;0.2 / 25,8%;[0.5;BSPD-555-U-BCHB
+B8528;Zbk 8528;;;;;;15:10.3;;6109-2;00:01.8;0.1 / 8,7%;0.5;BSPD-BCHB U
+B1324;Zbk 1324;;;;;;15:11.9;;6109-2;00:02.4;0.2 / 8,7%;1.1;BSPDO-BCHB U
+BCHB;Bln-Charlottenbg;;;;;(Z 00:00.5);15:15.3;;6109-2;00:03.6;0.3 / 11,4%;];BSPD-U-332-S-BZOO
+BZOO;Bln Zool Garten;;;;;;15:18.7;;6109-2;00:03.9;;;BCHB-S-52-U-BFRI D1
+B1218;Zbk 1218;;;;;;15:20.2;;6109-2;00:03.9;;;BZOO-BFRI U
+BLS;Bln Hbf-Le Bf(S);00:04.0;15:22.8;;00:04.0 (PZB);;15:26.8;;6109-2;00:03.9;0.8 / 44,4%;;BZOO-1112-BFRI
+BFRI;Bln Friedrichstr;;;;;;15:29.5;;6109-2;00:04.7;0.4 / 23,8%;;BZOO-U-752-U-BHF 60
+BALE;Bln Alex Hp;;;;;;15:31.8;;6109-2;00:05.2;0.5 / 19,4%;;BFRI-BHF U
+BHF;Bln Ostbahnhof;00:05.0;15:34.8;;00:08.0 (PZB);;(15:42.8);;6152-0;00:05.7;;;BALE-701-203-403-BOSGA
+
+
+LPF(12.2) 143-311mw   (BHF-BRGBB)   Letzte Änd. 21.12.2017 13:21 BRK88
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+Z1351 / Ä143/4;LPF 12.2;"101-5 (Reisezg/Güterzug  (Pu=6,0MW; 60kN pro FM)) (Zuglok, vorne)";;9;240,0 m;259,1 m;470,0 t;N;556,9 t;200 km/h;;200 km/h;J;;R+Mg;196;;;;;SKL-GEFORDERT  RM;N;;100 %;;;15.10.18 - 08.12.18 täglich (127 00);FRz;R;XNAC - BHF|L 77
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 12:35.6 Uhr in BHF
+BHF;Bln Ostbahnhof;00:05.0;(15:34.8);;00:08.0 (PZB);;15:42.8;;6152-0;00:00.0;;;BALE-701-203-403-BOSGA
+BOSGA;Bft Warsch Str F;;;;;;15:44.6;;6152-0;00:00.0;;;BHF-413/603-BRGBW
+BRGBW;Bln-Rummels Rgw;;;;;;15:46.4;;6140-0;00:00.0;;;BOSGA-BRGBB
+BRGBB;Bln-Rummels   BZ;00:05.0;15:49.0;;00:05.0g (PZB);;(15:54.0);;;00:00.0;;;BRGBW-829-BRGBA

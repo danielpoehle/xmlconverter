@@ -14,6 +14,7 @@
            }
 
            for (var i = 0, len = fileList.length; i < len; i++) {
+             //console.log(fileList[i].name);
              readAndConvertFile(fileList[i]);
            }
        };
@@ -24,14 +25,14 @@
      var reader = new FileReader();
 
      reader.onload = function(e) {
-       convertText(reader.result);
+       convertText(reader.result, file.name);
      };
 
      reader.readAsText(file, 'ISO-8859-1');
 
    }
 
-   function convertText(text) {
+   function convertText(text, fileName) {
      let lines = text.split('\n');
      //console.log(lines.length);
      //
@@ -63,7 +64,8 @@
      let laufpunkte = getLaufpunkte(lines.slice(9));
 
      let completeXML = firstPart + aenderung + zugch + bemerkung + laufpunkte + lastPart;
-     download("test.xml", completeXML);
+     let targetName = fileName.substring(0, fileName.lastIndexOf('.')) + ".xml";
+     download(targetName, completeXML);
    }
 
    function getLaufpunkte(laufpunkte){

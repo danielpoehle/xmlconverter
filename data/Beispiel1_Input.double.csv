@@ -1,0 +1,82 @@
+
+
+RE-D(40.1) 16514Ja   (DH-LL)   Letzte Änd. 17.05.2017 12:59 LLR121
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+L1258 / 16514/1;RE-D 40.1;146-1 (146.0   Reisezug (4,2MW)) (Zuglok, vorne);;4;108,0 m;126,9 m;240,0 t;N;322,0 t;160 km/h;;160 km/h;N;;R+Mg;194;;;;;;N;;100 %;;;10.12.17 - 02.04.18 täglich (127 00);NRz;R;"DH - LL|RE 50|alternativ:|BR 442 (5+3tlg.); Länge 144 m|Besteller: L 1258"
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 11:14.7 Uhr in DH
+DH;Dresden Hbf;00:03.0;(11:06.7);;00:08.0;;11:14.7;;6240-1;00:00.0;;[;DH263-DFS(503)
+DFS;Dre Freibg Str;;;;;;11:16.3;;6240-1;00:00.1;;0.1;DH(503)-513-DM(533)
+DM;Dresden Mitte;00:00.5;11:17.9;;00:00.7;;11:18.6;;6240-2;00:00.1;;];DFS(503)-533-DN(544) 4
+DN;Dre-Neustadt;00:01.0;11:21.1;;00:01.7 (PZB);;11:22.8;;6363-2;00:00.1;;;DM(534)-706/746-DPS 4
+DPSA;Dre-Pieschen Abz;;;;;;11:24.9;;6363-2;00:00.1;;[0.2;DN-DRB
+DRB;Radebeul Ost;;;(Z 00:00.7);;;11:27.7;;6239-1;00:00.3;;0.1;DPSA-4-DCW(6239)
+DRB B;Radebl Ost Bstg;00:00.8;11:29.0;;00:02.2;;11:31.2;;6239-1;00:00.5;;0.1;DN-4-DCW
+DRBT;Radebeul-Wein;;;;;;11:32.7;;6239-1;00:00.6;;;DN-DCW
+D1944;Sbk 1944 (DRB);;;;;;11:32.8;;6239-1;00:00.6;;0.1;DN-DCW
+D1934;Sbk 1934 (DRB);;;;;;;;6239-1;;;;DN-DCW
+D1743;Sbk 1743 (DRBD);;;;;;;;6239-1;;;;DN-DCW
+D1733;Sbk 1733 (DRBD);;;;;;;;6239-1;;;;DN-DCW
+DRBK;Radebeul-Kötzsch;;;;;;11:33.8;;6239-1;00:00.7;;0.1;DN-DCW
+DRBD;Radebeul Nord;;;;;;11:34.5;;6239-1;00:00.7;;];DN(6239)-DCW(6239)
+DRBZ;Radeb-Zitzsch;;;;;;11:34.8;;6239-1;00:00.7;;;DRBN-DCW
+DCW;Coswig (bei Dre);00:00.5;11:37.0;;00:00.8 (PZB);;11:37.8;;6363-2;00:00.7;;;DRBD(6239)-2-DCWB(102)
+DCW B;Coswig Stw 1;;;;;;11:39.1;;6363-2;00:00.7;;;DCW(102)-102-DPR
+D 486;Sbk 486 (DCW);;;;;;11:39.8;;6363-2;00:00.7;;;DCW-DPR
+D 483;Sbk 483 (DCW);;;;;;;;6363-2;;;;DCW-DPR
+DWEW;Weinböhla Hp;00:00.5;11:40.9;;00:00.5;;11:41.4;;6363-2;00:00.7;;[0.1;DCW-DPR
+DNDR;Niederau;00:00.5;11:43.3;;00:00.5;;11:43.8;;6363-2;00:00.8;;0.1;DCW-2-DPR
+D242P;Sbk 18242 (DPR);;;;;;11:46.0;;6363-2;00:00.8;;0.1;DCW-DPR
+D131P;Sbk 18131 (DPR);;;;;;;;6363-2;;;;DCW-DPR
+D682P;Sbk 16682 (DPR);;;;;;11:47.8;;6363-2;00:00.9;;0.1;DCW-DPR
+D571P;Sbk 16571 (DPR);;;;;;;;6363-2;;;;DCW-DPR
+DPR;Priestewitz;00:00.6;11:50.5;;00:00.7;;11:51.2;;6363-2;00:01.0;;0.1;DCW-2/162-DR
+DLEW;Leckwitz;;;;;;11:54.3;;6363-2;00:01.1;;;DPR-DR
+DWIG;Weißig (b Groß);;;;;;11:55.5;;6363-2;00:01.1;;0.1;DCW-1-DR
+DNUN;Nünchritz;00:00.5;11:57.4;;00:00.5;;11:57.9;;6363-2;00:01.2;;0.1;DCW-DR
+DGLA;Glaubitz (b Rie);00:00.5;12:00.0;;00:00.5;;12:00.5;;6363-2;00:01.3;;0.1;DCW-DR
+DZN;Zeithain Bogendr;;;;;;12:02.4;;6363-2;00:01.3;;];DPR-2-DR
+DRA;Röderau Bogendr;;;;;;12:03.0;;6363-2;00:01.3;;;DZN-DR(6363)
+DR;Riesa;00:01.0;12:04.8;;00:01.0;;12:05.8;;6363-2;00:01.3;;;DRA-3-DRR(3)
+DR  R;Riesa Rbf;;;;;;12:06.7;;6363-2;00:01.3;;[0.1;DR(3)-3-LBOR
+D 578;Sbk 578 (DR);;;;;;12:10.1;;6363-2;00:01.4;;;DR-DOT
+D 575;Sbk 575 (DOT);;;;;;;;6363-2;;;;DR-DOT
+DBT;Bornitz (b Osch);;;;;;12:10.3;;6363-2;00:01.4;;0.1;DR-DOT
+DOT;Oschatz;00:00.5;12:13.3;;00:00.9;;12:14.2;;6363-2;00:01.5;;0.1;DR-0504-LDA
+LDA;Dahlen (Sachs);00:00.5;12:19.4;;00:00.5;;12:19.9;;6363-2;00:01.6;;0.1;DOT-0402-LDH
+LDH;Dornreichenbach;;;;;;12:23.6;;6363-2;00:01.7;;;LDA-0302-LWZ
+LKUH;Kühren;00:00.5;12:25.4;;00:00.5;;12:25.9;;6363-2;00:01.7;;0.1;LDH-LWZ
+LWZ;Wurzen;00:01.0;12:30.2;;00:01.0;;12:31.2;;6363-2;00:01.8;;];LDH-0242/0204-LBOR
+LWZW;Bennewitz;;;;;;12:33.3;;6363-2;00:01.8;;[;LWZ-LBOR
+L244W;Sbk 0244 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+L242W;Sbk 0242 (LWZ);;;;;;12:33.9;;6363-2;00:01.8;;;LWZ-LBOR
+L141W;Sbk 0141 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+L143W;Sbk 0143 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+LALT;Altenbach;;;;;;12:34.2;;6363-2;00:01.9;;0.1;LWZ-LBOR
+LMAU;Machern Üst;;;;;;12:35.4;;6363-2;00:01.9;;;LWZ-LBOR
+LMAC;Machern (Sachs);;;;;;12:35.8;;6363-2;00:02.0;;0.1;LWZ-LBOR
+L118W;Sbk 0118 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+L116W;Sbk 0116 (LWZ);;;;;;12:36.8;;6363-2;00:02.0;;;LWZ-LBOR
+L115W;Sbk 0115 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+L117W;Sbk 0117 (LWZ);;;;;;;;6363-2;;;;LWZ-LBOR
+LGE;Gerichshain;;;;;;12:37.0;;6363-2;00:02.0;;0.1;LWZ-LBOR
+LBOR;Borsdorf (Sachs);00:00.5;12:39.3;;00:00.5;;12:39.8;;6363-2;00:02.2;;0.1;LWZ-5504-LEO
+L5514;Sbk 5514 (LBOR);;;;;;;;6363-2;;;;LBOR-LEO
+L5524;Sbk 5524 (LBOR);;;;;;12:41.5;;6363-2;00:02.3;;0.1;LBOR-LEO
+L5423;Sbk 5423 (LE);;;;;;;;6363-2;;;;LBOR-LEO
+L5413;Sbk 5413 (LE);;;;;;;;6363-2;;;;LBOR-LEO
+LEO;L-Engelsdf Ost;;;;;;12:42.5;;6363-2;00:02.3;;0.1;LBOR(6363)-2-LEK(2)
+LE  H;L-Engelsdf Bstg;00:00.5;12:43.4;;00:00.5;;12:43.9;;6363-2;00:02.4;;0.1;LEO-2-LEK
+LE  K;L-Engelsdf Kurzv;;;;;;12:45.1;;6363-2;00:02.5;;;LEO-2-LPSD
+L5222;Sbk 5222 (LL);;;;;;12:45.4;;6363-2;00:02.5;;;LE-LL
+LLPDH;Lpz-Paunsdorf Hp;;;;;;12:45.6;;6363-2;00:02.5;;;LE-LL
+L5225;Sbk 5225 (LL);;;;;;;;6363-2;;;;LE-LL
+L5226;Sbk 5226 (LL);;;;;;12:46.0;;6363-2;00:02.6;;;LE-LL
+L5221;Sbk 5221 (LL);;;;;;;;6363-2;;;;LE-LL
+LSEH;Sellerhausen;;;;;;12:46.2;;6363-2;00:02.6;;;LE-LL
+L5228;Sbk 5228 (LL);;;;;;12:46.3;;6363-2;00:02.6;0.1 / 5,1%;0.1;LE-LL
+L5223;Sbk 5223 (LL);;;;;;;;6363-2;;;;LE-LL
+LL  V;Lpz-Volkmarsdorf;;;;;;12:47.9;;6363-20;00:02.8;0.1 / 5,1%;];LE-214-LL(20)
+LL;Leipzig Hbf;00:04.6;12:50.1;;00:04.6;;(12:54.7);;;00:02.9;;;LLV(20)-21LL
