@@ -4,6 +4,7 @@
    myApp.controller('FileUploadController', function ($scope) {
 
        $scope.uploadFile = function () {
+           Logger.reset();
            var fileList = $scope.myFile;
 
            // Check for the various File API support.
@@ -15,24 +16,23 @@
 
            for (var i = 0, len = fileList.length; i < len; i++) {
              //console.log(fileList[i].name);
-             readAndConvertFile(fileList[i]);
+             readAndConvertFile(fileList[i], i === (len-1));
            }
        };
    });
 
-   function readAndConvertFile(file) {
+   function readAndConvertFile(file, finish) {
      //console.log(file);
      var reader = new FileReader();
 
      reader.onload = function(e) {
-       convertText(reader.result, file.name);
+       setTimeout(convertText(reader.result, file.name, finish), Math.floor(Math.random() * 100) + 1);
      };
 
      reader.readAsText(file, 'ISO-8859-1');
-
    }
 
-   function convertText(text, fileName) {
+   function convertText(text, fileName, finish) {
      let lines = text.split('\n');
      //console.log(lines.length);
      //
@@ -45,15 +45,22 @@
      //console.log(matchLines);
 
      if (matchLines.length === 0) {
-       console.log(`File ${fileName} does not meet the expected structure - no line with 'Trasse;Zuggattung;...' available.`);
+       Logger.logError(`File ${fileName} does not meet the expected structure - no line with 'Trasse;Zuggattung;...' available.`);
+       if(finish){
+        setTimeout(finish=true, 1000);
+        download("logfile.txt", Logger.createLogFile());
+       }
        return;
      }
 
      for(let i = 0, len = matchLines.length; i < len; i++){
        let targetLine = matchLines[i] + 3;
       if (l1.trim() !== lines[targetLine].trim()) {
-        console.log(`File ${fileName} does not meet the expected structure - no line with 'Btrst.;Btrst.(lang);...' available on line ${targetLine}.`);
-        console.log(`Line ${targetLine}: ` + lines[targetLine].trim());
+        Logger.logError(`File ${fileName} does not meet the expected structure - no line with 'Btrst.;Btrst.(lang);...' available on line ${targetLine}.\nActual line ${targetLine}: `+ lines[targetLine].trim());
+        if(finish){
+          setTimeout(finish=true, 1000);
+          download("logfile.txt", Logger.createLogFile());
+         }
         return;
       }
      }
@@ -86,6 +93,11 @@
      let completeXML = firstPart + aenderung + zugch + bemerkung + laufpunkte + lastPart;
      let targetName = fileName.substring(0, fileName.lastIndexOf('.')) + ".xml";
      download(targetName, completeXML);
+     Logger.logSuccess(`File ${targetName} successfully created`);
+     if(finish){
+      setTimeout(finish=true, 1000);
+      download("logfile.txt", Logger.createLogFile());
+     }
    }
 
    function indexes(str, find) {
