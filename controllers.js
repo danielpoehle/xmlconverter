@@ -173,7 +173,7 @@
      let minutes = time.split(".")[0].split(":")[1];
      let timestamp = (60*hours + 1*minutes) + "," + seconds;
 
-     console.log(timestamp);
+     //console.log(timestamp);
 
      return timestamp;
    }
