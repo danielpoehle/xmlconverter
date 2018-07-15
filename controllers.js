@@ -41,16 +41,21 @@
 
      let l2 = 'Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar';
 
-     if (l2.trim() !== lines[4].trim()) {
-       console.log("File does not meet the expected structure - line 5");
-       console.log(lines[4].trim());
+     let matchLines = indexes(lines, l2.trim());
+     //console.log(matchLines);
+
+     if (matchLines.length === 0) {
+       console.log(`File ${fileName} does not meet the expected structure - no line with 'Trasse;Zuggattung;...' available.`);
        return;
      }
 
-     if (l1.trim() !== lines[7].trim()) {
-       console.log("File does not meet the expected structure - line 8");
-       console.log(lines[7].trim());
-       return;
+     for(let i = 0, len = matchLines.length; i < len; i++){
+       let targetLine = matchLines[i] + 3;
+      if (l1.trim() !== lines[targetLine].trim()) {
+        console.log(`File ${fileName} does not meet the expected structure - no line with 'Btrst.;Btrst.(lang);...' available on line ${targetLine}.`);
+        console.log(`Line ${targetLine}: ` + lines[targetLine].trim());
+        return;
+      }
      }
 
 
@@ -58,14 +63,39 @@
 
      let firstPart = '<?xml version="1.0" encoding="UTF-8"?>\n<Zugtrassen>\n\t<Zugtrasse>\n\t\t<Zugnummer></Zugnummer>\n';
      let lastPart = '\t</Zugtrasse>\n</Zugtrassen>\n';
-     let aenderung = getAenderung(lines[2]);
-     let zugch = getZCH(lines[5]);
-     let bemerkung = getBemerkung(lines[2]);
-     let laufpunkte = getLaufpunkte(lines.slice(9));
+     //console.log(lines[matchLines[0]-2]);
+     let aenderung = getAenderung(lines[matchLines[0]-2]);
+     let zugch = getZCH(lines[matchLines[0]+1]);
+     let bemerkung = getBemerkung(lines[matchLines[0]-2]);
+
+     //extract Laufpunkte
+     let endMatchLines = matchLines.slice(1);
+     endMatchLines.push(lines.length+6); // one more than length, later -5 in for-loop
+     let laufpunktLines = [];
+     //console.log(laufpunktLines);
+     //console.log(matchLines);
+     //console.log(endMatchLines);
+     for(let i = 0, len = matchLines.length; i < len; i++){
+       laufpunktLines = laufpunktLines.concat(lines.slice(matchLines[i]+5, endMatchLines[i]-5));
+     }
+
+     //console.log(laufpunktLines);
+
+     let laufpunkte = getLaufpunkte(laufpunktLines);
 
      let completeXML = firstPart + aenderung + zugch + bemerkung + laufpunkte + lastPart;
      let targetName = fileName.substring(0, fileName.lastIndexOf('.')) + ".xml";
      download(targetName, completeXML);
+   }
+
+   function indexes(str, find) {
+    let indices = [];
+    for(let i = 0, len = str.length; i < len; i++){
+      if(str[i].trim() === find){
+        indices.push(i);
+      }
+    }
+    return indices;
    }
 
    function getLaufpunkte(laufpunkte){
