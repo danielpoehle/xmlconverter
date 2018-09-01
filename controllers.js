@@ -29,6 +29,8 @@
      var reader = new FileReader();
 
      reader.onload = function(e) {
+       let a = true;
+      setTimeout(a=true, 1000);
       convertText(reader.result, file.name, finish);
      };
 
