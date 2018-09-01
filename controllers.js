@@ -195,7 +195,7 @@
    }
 
    function parseStrecke(laufpunkt){
-     if(laufpunkt[9].split("-")[0].trim() !== ""){
+     if (typeof laufpunkt[9].split("-")[1] != 'undefined'){
        return("\t\t\t\t<Strecke>" + laufpunkt[9].split("-")[0].trim() + "</Strecke>\n" + "\t\t\t\t<Streckengleis>" + laufpunkt[9].split("-")[1].trim() + "</Streckengleis>\n");
      }
      return "";

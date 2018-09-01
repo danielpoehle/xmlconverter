@@ -1,0 +1,39 @@
+
+
+ICE-A(97.1) 898MS   (LL-UTHE)   Letzte Änd. 07.06.2018 17:01 vmsac
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+898/1;ICE-A 97.1;*80 6412-50 (7812, ICE4,7-T, 4,95 MW, Imax<600A) (Zuglok, vorne);;0;0,0 m;202,0 m;0,0 t;N;475,0 t;;;250 km/h;N;Mit ETCS Version 2 ausgerüstet;R+Mg;194;;;;;;N;;100 %;;;10.12.17 - 09.12.18 täglich (127 00);FRz;R;
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 00:05.0 Uhr in LL
+LL;Leipzig Hbf;00:01.0;(-1/23:51.4);;00:01.0 (PZB);;-1/23:52.4;;5919-2;00:00.0;;;LL13-LLBB(113)
+LLBB;Lpz Berliner Str;;;;;;-1/23:54.9;;5919-2;00:00.0;;;LL(113)-213-LLMO ab 10/2018
+LLMO;Leipzig-Mockau;;;;;;-1/23:57.1;;5919-2;00:00.0;;;LL-3-LGOS
+LNW H;Leipzig Messe Hp;;;;;;-1/23:58.0;;5919-2;00:00.0;;;LLMO-LGOS
+L8388;Sbk 8388 (LFLU);;;;;;-1/23:58.2;;5919-2;00:00.0;;;LLMO-LGOS
+L8380;Sbk 8380 (LFLU);;;;;;;;5919-2;;;;LLMO-LGOS
+L8384;Sbk 8384 (LFLU);;;;;;00:00.2;;5919-2;00:00.0;;;LLMO-LGOS
+L8383;Sbk 8383(LFLU);;;;;;;;5919-2;;;;LLMO-LGOS
+LFLU;Fh Leipzig/Halle;;;;;;00:02.2;;5919-2;00:00.0;;;LLMO-3-LGOS
+LQGOS;Gröbers ST/SN;;;;;;;;5919-2;;;;LLMO-LGOS
+LGOSO;Gröbers Ost;;;;;;00:03.8;;5919-2;00:00.0;;;LLMO-LGOS(6)
+LGOS;Gröbers;;;;;;00:03.9;;5919-2;00:00.0;;;LGOSO-6-UE
+LGOSW;Gröbers West;;;;;;;;5919-2;;;;LGOS(6)-6-UE
+LPLN;Halle-Planena;;;;;;00:07.0;;5919-2;00:00.0;;;LGOS-UE
+LDST;Dörstewitz;;;;;;00:08.2;;5919-2;00:00.0;;;LPLN-3-UE
+LJD;Jüdendorf;;;;;;00:12.5;;5919-2;00:00.0;;;LPLN-4-UE
+LSBT;Saubachtal;;;;;;00:16.6;;5919-2;00:00.0;;;LPLN-3-UE
+UQTL;Teutleben TH/ST;;;;;;;;5919-2;;;;LPLN-UE
+UGBB;Großbrembach;;;;;;00:21.5;;5919-2;00:00.0;;;LPLN-4-UE
+UVIU;Vieselb Umspannw;;;;;;;;5919-2;;;;LPLN-UE
+UE  L;Erf Linderbach;;;;;;00:27.3;;5919-2;00:00.0;;;LPLN-201-UE(201)
+UE  F;Erfurt Fzwerk;;;;;;00:27.7;;5919-2;00:00.0;;;UEL(201)-301-UEG(401)
+UE  O;Erfurt Gbf Ost;;;;;;00:28.0;;5919-2;00:00.0;;;UEF(201)-301-UEG(401)
+UE  G;Erfurt Gbf;;;;;;00:28.5;;5919-2;00:00.0;;;UEO(301)-401-UEP(1)
+UE  P;Erfurt Pbf;;;;;;00:29.2;;5919-2;00:00.0;;;UEG(401)-1-NN Hlang
+UEL;Eischleben;;;;;;00:36.1;;5919-2;00:00.0;;;UE-3-NN
+UIW;Ilmenau-Wolfsbg;;;;;;00:42.2;;5919-2;00:00.0;;;UE-3-NN
+UMA;Massetal;;;;;;00:46.9;;5919-2;00:00.0;;;UE-NN
+UTHE;Theuern;;;;;;(00:50.6);;Gl.7;00:00.0;;;UE-3-NN
+Geschw. am letzten FZMP: 250 km/h
