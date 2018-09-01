@@ -13,20 +13,23 @@
            } else {
              alert('The File APIs are not fully supported in this browser.');
            }
-
-           for (var i = 0, len = fileList.length; i < len; i++) {
-             //console.log(fileList[i].name);
-             readAndConvertFile(fileList[i], i === (len-1));
-           }
+           convertFiles(fileList);
        };
    });
+
+   async function convertFiles(fileList) {
+    for (let i = 0, len = fileList.length; i < len; i++) {
+      await readAndConvertFile(fileList[i], i === (len-1));
+      //console.log(i + " " + fileList[i].name);
+    }
+   }
 
    function readAndConvertFile(file, finish) {
      //console.log(file);
      var reader = new FileReader();
 
      reader.onload = function(e) {
-       setTimeout(convertText(reader.result, file.name, finish), Math.floor(Math.random() * 100) + 1);
+      convertText(reader.result, file.name, finish);
      };
 
      reader.readAsText(file, 'ISO-8859-1');
@@ -165,26 +168,26 @@
    }
 
    function getBedarfshalt(laufpunkt){
-     let b = "\t\t\t<Verkehrshalt>\n" + parseDS100(laufpunkt);
+     let b = "\t\t\t<BetriebshaltTM>\n" + parseDS100(laufpunkt);
 
      b += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
           "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" + "\t\t\t\t<Haltart>+TM</Haltart>\n";
      b += parseZuschlag(laufpunkt);
      b += parseBauzuschlag(laufpunkt);
      b += parseStrecke(laufpunkt);
-     b += "\t\t\t</Verkehrshalt>\n";
+     b += "\t\t\t</BetriebshaltTM>\n";
      return b;
    }
 
    function parseZuschlag(laufpunkt){
      if(laufpunkt[11].includes("/")){
-       return("\t\t\t\t<Zuschlag>" + laufpunkt[11].split("/")[0].trim() + "</Zuschlag>\n");
+       return("\t\t\t\t<Zuschlag>" + laufpunkt[11].split("/")[0].replace('.', ',').trim() + "</Zuschlag>\n");
      }
      return "";
    }
 
    function parseZusatzhalt(laufpunkt){
-     let zusatz = laufpunkt[4].replace('(','').replace(')', '').replace('Z','').trim();
+     let zusatz = laufpunkt[4].replace('(','').replace(')', '').replace('Z','').replace('.', ',').trim();
      if(zusatz !== ""){
        return("\t\t\t\t<Zusatzhalt>" + zusatz + "</Zusatzhalt>\n");
      }
@@ -204,7 +207,7 @@
 
    function parseBauzuschlag(laufpunkt){
      if(laufpunkt[12].replace('[','').replace(']', '').trim() !== ""){
-       return("\t\t\t\t<Bauzuschlag>" + laufpunkt[12].replace('[','').replace(']', '').trim() + "</Bauzuschlag>\n");
+       return("\t\t\t\t<Bauzuschlag>" + laufpunkt[12].replace('[','').replace(']', '').replace('.', ',').trim() + "</Bauzuschlag>\n");
      }
      return "";
    }
@@ -225,6 +228,7 @@
      if(timestamp.includes("/")){
        timestamp = timestamp.split("/")[1];
      }
+     timestamp = timestamp.replace('.', ',');
      return timestamp;
    }
 
