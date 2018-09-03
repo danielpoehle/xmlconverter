@@ -148,8 +148,8 @@
    function getDurchfahrt(laufpunkt){
      let d = "\t\t\t<Durchfahrt>\n" + parseDS100(laufpunkt);
      d += "\t\t\t\t<Durchfahrtzeit>" + modifyTimestamp(laufpunkt[7]) + "</Durchfahrtzeit>\n";
-     d += parseZuschlag(laufpunkt);
-     d += parseBauzuschlag(laufpunkt);
+	 d += parseBauzuschlag(laufpunkt);
+     d += parseZuschlag(laufpunkt);     
      d += parseZusatzhalt(laufpunkt);
      d += parseStrecke(laufpunkt);
      d += "\t\t\t</Durchfahrt>\n";
@@ -161,9 +161,9 @@
 
      h += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
           "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" +
-          "\t\t\t\t<Mindesthaltedauer>" + modifyMindesthaltezeit(laufpunkt[2].trim()) +  "</Mindesthaltedauer>\n\t\t\t\t<Haltart>H</Haltart>\n";
-     h += parseZuschlag(laufpunkt);
+          "\t\t\t\t<Mindesthaltedauer>" + modifyMindesthaltezeit(laufpunkt[2].trim()) +  "</Mindesthaltedauer>\n";
      h += parseBauzuschlag(laufpunkt);
+	 h += parseZuschlag(laufpunkt);     
      h += parseStrecke(laufpunkt);
      h += "\t\t\t</Verkehrshalt>\n";
      return h;
@@ -173,9 +173,9 @@
      let b = "\t\t\t<BetriebshaltTM>\n" + parseDS100(laufpunkt);
 
      b += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
-          "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" + "\t\t\t\t<Haltart>+TM</Haltart>\n";
-     b += parseZuschlag(laufpunkt);
+          "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" + "\n";
      b += parseBauzuschlag(laufpunkt);
+	 b += parseZuschlag(laufpunkt);     
      b += parseStrecke(laufpunkt);
      b += "\t\t\t</BetriebshaltTM>\n";
      return b;
@@ -189,9 +189,10 @@
    }
 
    function parseZusatzhalt(laufpunkt){
-     let zusatz = laufpunkt[4].replace('(','').replace(')', '').replace('Z','').replace('.', ',').trim();
+     let zusatz = laufpunkt[4].replace('(','').replace(')', '').replace('Z','').trim();
      if(zusatz !== ""){
-       return("\t\t\t\t<Zusatzhalt>" + zusatz + "</Zusatzhalt>\n");
+	   //console.log(zusatz);
+       return("\t\t\t\t<Zusatzhalt>" + modifyMindesthaltezeit(zusatz) + "</Zusatzhalt>\n");
      }
      return "";
    }
