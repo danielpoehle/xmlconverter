@@ -1,0 +1,34 @@
+
+
+Trasse L3580 / 80931/1   
+
+DPN-G(32.1) 80931-001Dk   (UWM-UWMB)   Letzte Änd. 26.03.2018 10:51 LLR092
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+L3580 / 80931/1;DPN-G 32.1;650-5 (Regio Shuttle, RS 1, 2x257kW) (Zuglok, vorne);;0;0,0 m;26,0 m;0,0 t;N;48,7 t;120 km/h;120 km/h;120 km/h;N;;R+Mg;162;;;;;;N;;100 %;;;10.06.18 - 08.12.18 täglich (127 00);NRz;R;UWM - UKD|EB 26  Weimar - Kranichfeld
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 09:09.2 Uhr in UWM
+UWM;Weimar;00:05.0;(09:07.2);;00:05.0;;09:12.2;;6711-0;00:00.0;0.1 / 5,7%;;UWM3-UWMB
+UWMT;Weimar West;00:00.5;09:14.1;;00:00.5;;09:14.6;;6711-0;00:00.1;;;UWM-UWMB
+UWMB;Weimar Berka Bf;00:03.7;09:16.5;;00:03.8;;(09:20.3);;2;00:00.1;;;UWM-2UWMB
+
+
+DPN-G(32.1) 80931-002Dk   (UWMB-UKD)   Letzte Änd. 26.03.2018 10:51 LLR092
+
+Trasse;Zuggattung;TFZ - Standard;TFZ - Abschnittswirkend;Wagen;Wagenzuglänge;Gesamtlänge;Wagenzugmasse;Grenzlast;Gesamtmasse;V Wagenzug;V Konstruktion;Max. V;LZB-fähig;ETCS-Zugausrüstung;Bremsstellung;Bremshundertstel;Neigetechnik;LÜ-Charakteristik;LÜ-Abschnitt;LÜ-Text;Bef.Bes.;Sperrfahrt;Abweich. HV-Vmax;Anteil Regelzuschlag;CLuft;CLager;Verkehrt;Zugkl.;Rel. Halteplatzart;Kommentar
+L3580 / 80931/1;DPN-G 32.1;650-5 (Regio Shuttle, RS 1, 2x257kW) (Zuglok, vorne);;0;0,0 m;26,0 m;0,0 t;N;48,7 t;120 km/h;120 km/h;120 km/h;N;;R+Mg;162;;;;;;N;;100 %;;;10.06.18 - 08.12.18 täglich (127 00);NRz;R;UWM - UKD|EB 26  Weimar - Kranichfeld
+
+Btrst.;Btrst.(lang);Halt mind.;Ankunft;ZuHalt;Halt;ZuHalt;Abfahrt;ZLB;Endpunkt;Zuschlag Schlepp.;Zuschlag;Bauzuschlag;Fahrweg
+Wunschabfahrt um 09:17.2 Uhr in UWMB
+UWMB;Weimar Berka Bf;00:03.0;(09:16.5);;00:03.8;;09:20.3;(2);6681-0;00:00.0;;;UWMB2-UKD
+UNOH;Nohra (b Weimar);00:00.1;09:25.0;;x00:00.1;;09:25.1;;6681-0;00:00.0;;;UWMB-UKD
+UOGR;Obergrunstedt;00:00.1;09:27.4;;x00:00.1;;09:27.5;;6681-0;00:00.0;;;UWMB-UKD
+UHF;Holzdorf(b Weim);00:02.0;09:29.8;;00:02.5;;09:32.3;(7);6681-0;00:00.1;;;UWMB-2-UKD
+ULE;Legefeld;00:00.0;09:35.6;;x00:00.1;;09:35.7;;6681-0;00:00.1;0.1 / 4,3%;;UWMB-UKD
+UHET;Hetschburg;00:00.0;09:39.2;;x00:00.1;;09:39.3;;6681-0;00:00.2;0.1 / 2,7%;;UWMB-UKD
+UBBZ;Bad Berka Zeugh;00:00.5;09:43.3;;00:00.5;;09:43.8;;6681-0;00:00.3;;;UWMB-UKD
+UBB;Bad Berka;00:01.0;09:45.2;;00:01.0;;09:46.2;(3);6681-0;00:00.3;0.1 / 1,5%;;UWMB-2-UKD
+UMU;München b Berka;00:00.1;09:51.6;;x00:00.1;;09:51.7;;6681-0;00:00.4;0.6 / 43,3%;;UWMB-UKD
+UTA;Tannroda;00:00.5;09:53.8;;00:01.0;;09:54.8;;6681-0;00:01.0;0.3 / 7,5%;;UWMB-UKD
+UKD;Kranichfeld;00:01.0;09:59.7;;00:02.0;;(10:01.7);(2);1;00:01.4;;;UWMB-UKD

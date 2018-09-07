@@ -126,16 +126,21 @@
        if(laufpunkt.length === 14){
          let ankunftszeit = laufpunkt[3].trim(),
              abfahrtszeit = laufpunkt[7].trim(),
-             mindesthaltezeit = laufpunkt[2].trim();
+             mindesthaltezeit = laufpunkt[2].trim(),
+             haltezeit = laufpunkt[5].trim();
          if(ankunftszeit === ""){
            if(abfahrtszeit !== ""){
              lp += getDurchfahrt(laufpunkt);
            }
          }else {
            if(mindesthaltezeit !== ""){
-             lp += getHalt(laufpunkt);
+             if(haltezeit.indexOf('x') > -1){
+               lp += getBedarfshalt(laufpunkt);
+             }else{
+               lp += getHalt(laufpunkt);
+             }
            }else{
-             lp += getBedarfshalt(laufpunkt);
+             lp += getBetriebshalt(laufpunkt);
            }
          }
        }
@@ -149,7 +154,7 @@
      let d = "\t\t\t<Durchfahrt>\n" + parseDS100(laufpunkt);
      d += "\t\t\t\t<Durchfahrtzeit>" + modifyTimestamp(laufpunkt[7]) + "</Durchfahrtzeit>\n";
 	 d += parseBauzuschlag(laufpunkt);
-     d += parseZuschlag(laufpunkt);     
+     d += parseZuschlag(laufpunkt);
      d += parseZusatzhalt(laufpunkt);
      d += parseStrecke(laufpunkt);
      d += "\t\t\t</Durchfahrt>\n";
@@ -163,19 +168,32 @@
           "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" +
           "\t\t\t\t<Mindesthaltedauer>" + modifyMindesthaltezeit(laufpunkt[2].trim()) +  "</Mindesthaltedauer>\n";
      h += parseBauzuschlag(laufpunkt);
-	 h += parseZuschlag(laufpunkt);     
+	 h += parseZuschlag(laufpunkt);
      h += parseStrecke(laufpunkt);
      h += "\t\t\t</Verkehrshalt>\n";
      return h;
    }
 
    function getBedarfshalt(laufpunkt){
+     let h = "\t\t\t<Bedarfshalt>\n" + parseDS100(laufpunkt);
+
+     h += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
+          "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" +
+          "\t\t\t\t<Mindesthaltedauer>" + modifyMindesthaltezeit(laufpunkt[2].replace('x', '').trim()) +  "</Mindesthaltedauer>\n";
+     h += parseBauzuschlag(laufpunkt);
+	   h += parseZuschlag(laufpunkt);
+     h += parseStrecke(laufpunkt);
+     h += "\t\t\t</Bedarfshalt>\n";
+     return h;
+   }
+
+   function getBetriebshalt(laufpunkt){
      let b = "\t\t\t<BetriebshaltTM>\n" + parseDS100(laufpunkt);
 
      b += "\t\t\t\t<Ankunftszeit>" + modifyTimestamp(laufpunkt[3]) + "</Ankunftszeit>\n" +
           "\t\t\t\t<Abfahrtszeit>" + modifyTimestamp(laufpunkt[7]) + "</Abfahrtszeit>\n" + "\n";
      b += parseBauzuschlag(laufpunkt);
-	 b += parseZuschlag(laufpunkt);     
+	 b += parseZuschlag(laufpunkt);
      b += parseStrecke(laufpunkt);
      b += "\t\t\t</BetriebshaltTM>\n";
      return b;
